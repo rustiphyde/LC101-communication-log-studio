@@ -1,4 +1,15 @@
 body {
     color: pink;
-    background-color: black;   
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
  }
+  
+  @media screen and (max-width: 1024px) { 
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   
+    }
+  }
